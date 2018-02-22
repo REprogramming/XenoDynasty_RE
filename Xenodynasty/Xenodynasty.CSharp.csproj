@@ -85,7 +85,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraCntrl.cs" />
+    <Compile Include="Assets\Scripts\CargoCntrl.cs" />
+    <Compile Include="Assets\Scripts\EnemyCntrl.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawnCntrl.cs" />
     <Compile Include="Assets\Scripts\InputCntrl.cs" />
+    <Compile Include="Assets\Scripts\PlayerCntrl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

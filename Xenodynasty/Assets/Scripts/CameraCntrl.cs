@@ -24,10 +24,10 @@ public class CameraCntrl : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void LateUpdate () {
 
         distanceBtwnPlayers = Vector3.Distance(p1.transform.position, p2.transform.position);
-        Debug.Log("Dist. btwn players: " + distanceBtwnPlayers);
+        //Debug.Log("Dist. btwn players: " + distanceBtwnPlayers);
 
         midFocalPoint = (p1.transform.position + p2.transform.position) / 2f;     
   
