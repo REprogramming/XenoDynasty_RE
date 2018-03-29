@@ -24,6 +24,11 @@ public class EnemyCntrl : MonoBehaviour {
         if(other.gameObject.tag == "Cargo")
         {
             Destroy(this.gameObject); 
-        } 
+        }
+
+        if (other.gameObject.tag == "bullet")
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
